@@ -5,7 +5,6 @@ import InfoCard from "@/components/MyInfoCardComponent";
 const mm = require('../modules/MyMathModule');
 
 // In Line static assests
-import Landscape from "../public/nick-perez-unsplash.jpg";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -27,7 +26,7 @@ function TestImports() {
             <p>2 - 1 = {mm.subtract(2, 1)}</p>
             <Image
                 alt="Photo by Nick Perez at unsplash.com"
-                src={Landscape}
+                src={"/nick-perez-unsplash.jpg"}
                 width={200}
                 height={200}
             />
